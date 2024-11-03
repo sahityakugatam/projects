@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+section{
+    height:100vh;
+    width:100vw;
+    background: linear-gradient(orange,lightblue);
+    padding-top: 50px;
+}
+section>.heading
+{
+    height:100px;
+    width:80%;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    margin-left: 10%;
+    padding-top:15px;
+    
+}
+section>.heading>p
+{
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 15px;
+
+}
+section>.heading>h1{
+    line-height: 30px;
+    margin-bottom: 8px;
+    font-size: 30px;
+}
+section>.downbox{
+    height:550px;
+    width:80%;
+    /* background-color: blueviolet; */
+    margin-left: 10%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.box2
+{
+    height:100%;
+    width:50%;
+    /* background-color:chartreuse; */
+    
+
+}
+.box21
+{
+    height:80%;
+    width:80%;
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 10%;
+    padding: 35px;
+    
+}
+.box21>h1{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+input
+{
+    border:none;
+    border-bottom:1px solid black ;
+    width: 400px;
+    height:50px;
+    padding-top: 25px;
+} 
+button{
+    height:50px;
+    width: 140px;
+    margin-top: 40px;
+    background-color: cornflowerblue;
+    border: none;
+     color: white;
+     font-size: 25px;
+     text-transform: uppercase;
+}
+.box1
+{
+    height:100%;
+    width:50%;
+    background-color: brown;
+
+}
+
+.box1>.a{
+
+    height: 80%;
+    width: 80%;
+    background-color: aqua;
+     margin-top: 10%;
+    margin-left: 10%; 
+}
+.box1>.a>.b
+{
+
+    height:33.33%;
+    width:100%;
+    background-color: blueviolet;
+    padding: 20px;
+    color: white;
+    display: flex;
+    
+    /* margin-left: 30px; */
+
+}
+.box1>.a>.b>.b1{
+    height: 70%;
+    width: 20%;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 50%;
+   
+}
+
+.box1>.a>.b>.b1>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+   
+}
+
+.box1>.a>.b>.b2{
+    height: 80%;
+    width: 70%;
+    background-color: blue;
+    margin-left: 30px;
+}
+
+.box1>.a>.b>h1{
+    color:cornflowerblue;
+    padding-top: 20px;
+    
+
+}
+.box1>.a>.c
+{
+    height:33.33%;
+    width:100%;
+    /* background-color: pink; */
+    /* padding-left: 20px; */
+    color: white;
+    /* margin-left: 30px; */
+}
+.box1>.a>.c>h1{
+    color:cornflowerblue;
+    padding-top: 20px;
+}
+.box1>.a>.d
+{
+    height:33.330%;
+    width:100%;
+    background-color:rgb(88, 7, 81);
+    /* padding-left: 20px; */
+    color: white;
+    /* margin-left: 30px; */
+}
+.box1>.a>.d>h1{
+    color:cornflowerblue;
+    padding-top: 20px;
+}
+.c,.d{
+    text-align: center;
+}
